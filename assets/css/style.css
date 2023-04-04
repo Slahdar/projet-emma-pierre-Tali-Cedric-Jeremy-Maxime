@@ -251,6 +251,7 @@ select:focus {
 .collec-container img:hover {
   filter: brightness(0.7);
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .collec-container h3 {
