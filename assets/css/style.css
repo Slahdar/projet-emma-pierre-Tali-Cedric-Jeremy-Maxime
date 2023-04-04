@@ -3,6 +3,12 @@
   margin: auto;
 }
 
+/* @media screen and (min-width: 1000px) {
+  #page-container > * {
+    height: 100vh;
+  }
+} */
+
 #page-container > * {
   margin-top: 50px !important;
 }
@@ -213,7 +219,7 @@ select:focus {
   z-index: 2;
 }
 
-.btn-product-card {
+/* .btn-product-card {
   width: 180px;
   height: 40px;
   margin: auto;
@@ -227,21 +233,60 @@ select:focus {
   color: #3e3943;
   border: solid 1px #3e3943;
   transition: 0.3s;
-}
+} */
 
 .collec-container {
   display: flex;
   flex-direction: row;
   gap: 15px;
   width: 100%;
+  color: white;
 }
 
-.collec-container > img {
+.collec-container img {
   width: 420px;
   height: 600px;
   object-fit: cover;
 }
-.collec-container > img:hover {
+.collec-container img:hover {
   filter: brightness(0.7);
   transition: 0.3s;
+}
+
+.collec-container h3 {
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.collec-container div {
+  position: relative;
+  width: 33%;
+  height: 600px;
+}
+
+@media screen and (max-width: 480px) {
+  .collec-container div {
+    width: 100%;
+  }
+
+  .insta-img,
+  .container-insta {
+    flex-direction: column !important;
+  }
+}
+
+.insta-img {
+  display: flex;
+  flex-direction: row;
+  width: 75% !important;
+  justify-content: center;
+  gap: 30px;
+  align-self: center;
+}
+
+.container-insta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
