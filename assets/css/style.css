@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Urbanist", sans-serif !important;
+}
+
 #page-container {
   max-width: 1280px;
   margin: auto;
@@ -296,12 +304,23 @@ h2 {
   margin-top: 100px !important;
   max-height: 500px !important;
 }
+
+.collec-hr {
+  background-color: #f7645d;
+  width: 200px !important;
+  height: 3px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
 .container-text-collec {
-  color: #ffffff;
+  display: flex;
+  flex-direction: column;
   padding: 10% !important;
   align-self: center;
-  text-align: center;
-  background-color: #3e3943;
+  background-color: #f4f4f4;
   height: 100%;
 }
 .header-img {
@@ -325,9 +344,10 @@ h2 {
   /* background-color: white; */
 }
 .img-collection-header {
-  /* margin-top: -30px !important; */
+  object-fit: cover;
+  object-position: center;
   margin-bottom: 50px !important;
-  height: 100%;
+  height: 400px;
 }
 
 .cat_impertinente div,
@@ -351,4 +371,18 @@ h2 {
 .picture_collec img {
   max-width: 100vw;
   margin: auto;
+}
+
+.devis-btn {
+  margin: 15px auto;
+  padding: 0 10px;
+  background: none;
+  height: 50px;
+  color: #3e3943;
+}
+
+.devis-btn:hover {
+  background: #3e3943;
+  color: #ffffff;
+  transition: 0.3s;
 }
