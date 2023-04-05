@@ -386,3 +386,101 @@ h2 {
   color: #ffffff;
   transition: 0.3s;
 }
+.contact-form input {
+  width: 95%;
+}
+
+.contact-form textarea,
+.contact-form#subject {
+  width: 100%;
+  height: 200px;
+}
+
+.contact-form #pictures-to-add {
+  width: 100%;
+  height: 200px;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+}
+
+.sbm-btn-contact {
+  margin-left: auto;
+  width: 120px !important;
+  height: 40px;
+  background: none;
+  border: solid 1px #3e3943;
+  color: #3e3943;
+  transition: 0.3s;
+}
+
+.sbm-btn-contact:hover {
+  color: #ffffff;
+  background: #3e3943;
+}
+
+.contact-form #pictures-to-add > p {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  align-self: center;
+}
+
+.div-input-contact,
+#pictures-to-add {
+  margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #f4f4f4;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.checkbox-contactPage > div {
+  display: inline-flex;
+  gap: 10px;
+}
+
+#contact,
+#devis {
+  transition: 0.3s;
+}
+
+.checkbox-contactPage label {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 28px;
+  width: 28px;
+}
+
+.checkbox-contactPage label {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 28px;
+  width: 28px;
+}
+
+.checkbox-contactPage input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.checkbox-contactPage input[type="checkbox"]:checked + label {
+  background-color: #f7645d;
+  border-color: #f7645d;
+}
+
+.checkbox-contactPage input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
