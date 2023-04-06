@@ -3,8 +3,12 @@ document.addEventListener("DOMContentLoaded", function () {
   headerContainer.innerHTML = `
  <div id="block-1">
 <nav class="menu-left" id="head-cred" >
-<i class="fa-solid fa-phone"></i><span> +33 7 65 78 65 43</span>
-<i class="fa-solid fa-envelope"></i><span>  test@test.fr</span>
+	<div class="switch">
+	    <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
+	    <label for="language-toggle"></label>
+	    <span class="on">FR</span>
+	    <span class="off">EN</span>
+  	</div>
 </nav>
 <div id="head-burger">
   <i class="fa-solid fa-bars" id="burger"></i>
@@ -75,8 +79,8 @@ document.addEventListener("DOMContentLoaded", function () {
       <a href="javascript:void(0)" id="first-div">Nos Collections</a>
       <div id="block-3">
         <div class="items">
-            <div class="item-image precieuses"></div>
-            <a class="item-link" href="">Precieuses</a>
+        <a class="imgheader" href="collection-precieuse.html"><div class="item-image precieuses"></div></a>
+            <a class="item-link" href="collection-precieuse.html">Précieuses</a>
             <div class="item-sub-links">
                 <a href="">Bracelets</a>
                 <a href="">Colliers</a>
@@ -85,9 +89,9 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>
         </div>
         <div class="items">
-            <div class="item-image impertinentes"></div>
+        <a class="imgheader" href="collection-impertinente.html"><div class="item-image impertinentes"></div></a>
             
-            <a class="item-link" href="">Impertinentes</a>
+            <a class="item-link" href="collection-impertinente.html">Impertinentes</a>
             
             <div class="item-sub-links">
                 <a href="">Bracelets</a>
@@ -97,8 +101,8 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>
         </div>
         <div class="items">
-            <div class="item-image unique"></div>
-            <a class="item-link" href="">Unique</a>
+        <a class="imgheader" href="collection-unique.html"><div class="item-image unique"></div></a>
+            <a class="item-link" href="collection-unique.html">Unique</a>
             <div class="item-sub-links">
                 <a href="">Bracelets</a>
                 <a href="">Colliers</a>
@@ -109,6 +113,12 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
       <a href="blog.html">Blog</a>
       <a href="contact.html">Contact</a>
+      <div class="switch" id="btnswitchln" style="display:none">
+	    <input id="language-toggle2" class="check-toggle check-toggle-round-flat" type="checkbox">
+	    <label for="language-toggle"></label>
+	    <span class="on">FR</span>
+	    <span class="off">EN</span>
+  	</div>
   </nav>
 </div>
 
@@ -120,7 +130,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="col-12 col-sm-1"></div>
       <div class="col-12 col-sm-2"><a href="collection-precieuse.html">Précieuse</a></div>
       <div class="col-12 col-sm-2"><a href="collection-impertinente.html">Impertinente</a></div>
-      <div class="col-12 col-sm-2"><a>Unique</a></div>
+      <div class="col-12 col-sm-2"><a href="collection-unique.html">Unique</a></div>
       <div class="col-12 col-sm-2"><a href="blog.html">Blog</a></div>
       <div class="col-12 col-sm-2"><a href="contact.html">Contact</a></div>
       <div class="col-12 col-sm-1"></div>
@@ -145,7 +155,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="col-12 col-sm-4 order-3 order-sm-3"> 
           <div class="footer-section row">
 
-              <h2 class="white-title" style="text-transform: uppercase;">contact</h2>
+              <h2 class="white-title" style="text-transform: uppercase; margin-top: auto;">contact</h2>
               <div class="col-12"> <i class="fa-solid fa-phone"></i><span>0123456789</span></div>
               <div class="col-12"> <i class="fa-solid fa-envelope"></i><span>contact@emmapierre.com</span></div>
               <div class="col-12"> <i class="fa-brands fa-instagram"></i><span>@emmapierrejewels</span></div>
