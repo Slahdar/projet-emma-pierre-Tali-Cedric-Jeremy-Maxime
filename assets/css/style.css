@@ -15,12 +15,6 @@ body {
   padding: 124px 50px;
 }
 
-h1,
-h2,
-h3 {
-  color: #1d5f6b !important;
-}
-
 h1.white-title,
 h2.white-title,
 h3.white-title {
@@ -442,7 +436,7 @@ h2 {
   border: none;
   display: flex;
   flex-direction: column;
-  padding: 5px 10px;
+  padding: 10px 10px;
 }
 
 .contact-form {

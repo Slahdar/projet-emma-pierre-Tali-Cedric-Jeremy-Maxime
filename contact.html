@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="/assets/css/base.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/navbar-style.css">
     <link rel="stylesheet" href="assets/css/caroussel-style.css">
@@ -14,17 +16,19 @@
     <link rel="stylesheet" href="assets/css/tabs2-style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 </head>
+
 <body>
     <header id="header-container"></header>
     <div id="page-container">
         <div class="row section-content">
             <div class="container-collec row col-12 col-sm-6">
                 <div class="container-text-collec">
-                    <h3>“Nous sommes impatients de vous entendre et de vous aider à trouver le bijou parfait pour compléter votre style personnel et ajouter une touche de glamour à votre garde-robe.”</h3>
+                    <h3>“Nous sommes impatients de vous entendre et de vous aider à trouver le bijou parfait pour
+                        compléter votre style personnel et ajouter une touche de glamour à votre garde-robe.”</h3>
                     <h3 style="align-self: flex-end;">La fondatrice</h3>
                 </div>
             </div>
-                <img src="assets/img/hand_bracket.webp" alt="" class="img-collection-header col-12 col-sm-6">   
+            <img src="assets/img/hand_bracket.webp" alt="" class="img-collection-header col-12 col-sm-6">
         </div>
 
         <div class="row section-content checkbox-contactPage">
@@ -113,8 +117,9 @@
 
                         <div class="col-12">
                             <div id="pictures-to-add">
-                                <p>Pour nous adresser des photos, croquis, schémasGlissez vos fichiers ou cliquez ici <br>
-                                (Limité à 3 fichiers maximum / poids total maximal de 5 Mo)</p>
+                                <p>Pour nous adresser des photos, croquis, schémasGlissez vos fichiers ou cliquez ici
+                                    <br>
+                                    (Limité à 3 fichiers maximum / poids total maximal de 5 Mo)</p>
                             </div>
                         </div>
                         <button type="submit" class="sbm-btn-contact">Envoyer</button>
@@ -134,31 +139,32 @@
         let contact = document.getElementById('contact');
         let devis = document.getElementById('devis');
 
-        checkboxContact.addEventListener('click', function() {
+        checkboxContact.addEventListener('click', function () {
 
             contact.style.display = 'block';
             devis.style.display = 'none';
 
             checkboxDevis.checked = false;
 
-            if( checkboxContact.checked == false &&  checkboxDevis.checked == false){
-                
+            if (checkboxContact.checked == false && checkboxDevis.checked == false) {
+
                 checkboxContact.checked = true;
             }
         });
 
-        checkboxDevis.addEventListener('click', function() {
+        checkboxDevis.addEventListener('click', function () {
 
             devis.style.display = 'block';
             contact.style.display = 'none';
 
             checkboxContact.checked = false;
 
-            if( checkboxContact.checked == false &&  checkboxDevis.checked == false){
-                
+            if (checkboxContact.checked == false && checkboxDevis.checked == false) {
+
                 checkboxDevis.checked = true;
             }
         });
     </script>
 </body>
+
 </html>
