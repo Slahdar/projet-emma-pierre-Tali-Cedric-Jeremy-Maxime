@@ -90,8 +90,8 @@ h2 {
 }
 
 .boutiqueBtn:hover {
-  background: #1d5f6b !important;
-  color: #ffffff;
+  color: #f7645d;
+  border-color: #f7645d;
   transition: 0.3s;
 }
 
@@ -111,8 +111,8 @@ h2 {
 }
 
 .blog-btn:hover {
-  color: #ffffff;
-  background-color: #3e3943;
+  color: #f7645d;
+  border-color: #f7645d;
   transition: 0.3s;
 }
 
@@ -261,8 +261,8 @@ h2 {
 }
 
 .collec-btn:hover {
-  background: #1d5f6b;
-  color: #ffffff;
+  color: #f7645d;
+  border-color: #f7645d;
   transition: 0.3s;
 }
 
@@ -382,8 +382,8 @@ h2 {
 }
 
 .devis-btn:hover {
-  background: #3e3943;
-  color: #ffffff;
+  color: #f7645d;
+  border-color: #f7645d;
   transition: 0.3s;
 }
 .contact-form input {
@@ -415,8 +415,8 @@ h2 {
 }
 
 .sbm-btn-contact:hover {
-  color: #ffffff;
-  background: #3e3943;
+  color: #f7645d;
+  border-color: #f7645d;
 }
 
 .contact-form #pictures-to-add > p {
