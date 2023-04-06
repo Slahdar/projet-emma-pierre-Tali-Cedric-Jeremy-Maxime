@@ -39,8 +39,8 @@ body {
 
 #call-to-action > a {
   text-decoration: none;
-  color: #11373f;
-  border: solid 2px #11373f;
+  color: #18515c;
+  border: solid 2px #18515c;
   padding: 5px;
   font-weight: bold;
   transition: all 0.2s;
@@ -62,7 +62,6 @@ body {
   transform: translateX(
     -50%
   ); /* Translate the header left by 50% of its own width */
-  max-width: 1280px; /* Set the maximum width of the header to 1400px */
   width: 100%; /* Set the width of the header to 100% */
   background: #ffffffa4;
   transition: all 0.3s;
@@ -141,17 +140,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Noto Serif", serif;
-
   width: 100%;
+  color: #18515c;
 }
 
 #menu > a {
   padding: 10px 25px;
   margin: 0px;
-  font-family: "Noto Serif", serif;
+  /* font-family: 'Noto Serif', serif; */
+  text-transform: uppercase;
   text-decoration: none;
-  color: #0a2025;
+  color: #18515c;
 }
 
 #menu > a:hover {
@@ -180,6 +179,7 @@ i {
 .menu-left {
   width: calc(50% - 100px);
   order: 1;
+  color: #18515c !important;
 }
 
 .menu-right {
@@ -191,6 +191,7 @@ i {
 }
 
 .icons-container {
+  color: #18515c !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -199,13 +200,12 @@ i {
 
 .icon-container {
   margin: 10px 10px; /* Add margin to space the icons from each other */
-  transition: all 0.2s;
+  /* transition: all 0.2s; */
   border-radius: 5px;
 }
 
 .icon-container:hover {
-  background-color: black;
-  color: white;
+  font-size: 24px;
 }
 
 #cart {
@@ -289,18 +289,50 @@ i {
 }
 
 #footer-container {
-  max-width: 1280px;
-  color: white;
-  background-color: #11373f;
+  color: white !important;
+  background-color: #18515c;
   margin: 0px auto;
 }
 
 #foot-info {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-
+  padding: 50px 30px;
   margin: 0 10px;
+}
+
+.footer-section {
+  height: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer-section .logo {
+  width: 200px;
+}
+
+#foot-head {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.divider-footer {
+  border-bottom: solid 1px;
+  width: 85%;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 576px) {
+  .footer-section {
+    width: 80% !important;
+    margin: auto !important;
+    text-align: left;
+  }
 }
 
 #footer-block-1 {
