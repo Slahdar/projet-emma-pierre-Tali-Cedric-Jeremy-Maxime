@@ -75,8 +75,32 @@
                                 </div>
                             </div>
                             <div class="col-12 text-center">
-                                <a href="/paiement.html" class="cta mt-5" style="float: right" role="button">Payer ma
-                                    commande</a>
+
+
+                                <button class="cta mt-5" style="float: right" id="paymentButton"
+                                    onclick="validatePayment()">Payer ma
+                                    commande</button>
+
+                                <div id="paymentPopup" style="display:none">
+                                    <p>Paiement validé!</p>
+                                </div>
+
+                                <script>
+                                    document.getElementById("paymentButton").addEventListener("click", function (event) {
+                                        event.preventDefault(); // Empêche le rechargement de la page
+
+                                        // Effectuer les étapes nécessaires pour valider le paiement ici
+
+                                        // Afficher le popup une fois le paiement validé
+                                        document.getElementById("paymentPopup").style.display = "block";
+
+                                        // Démarrer le timer pour cacher le popup et rediriger vers la page panier
+                                        setTimeout(function () {
+                                            document.getElementById("paymentPopup").style.display = "none";
+                                            window.location.href = "index.html";
+                                        }, 2000); // Timer de 2 secondes (2000 millisecondes)
+                                    });
+                                </script>
                             </div>
 
 
@@ -152,6 +176,7 @@
 
             </div>
         </section>
+
 
 
 

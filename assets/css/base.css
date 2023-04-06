@@ -113,7 +113,7 @@ h2{
     color: var(--bleu2);
     text-transform: uppercase;
     font-weight: 500;
-
+    margin: 0;
 
 }
 
@@ -155,7 +155,7 @@ a.cta, button.cta{
     margin: 0 auto;
     font-family: "Urbanist";
     font-weight: 500;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .cta-big{
