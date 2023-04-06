@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Urbanist&display=swap");
-
+a {
+  color: unset !important;
+  text-decoration: unset !important;
+}
 body {
   margin: 0px;
   padding: 0px;
@@ -55,7 +58,7 @@ h2 {
   .imgCenter.imgResponsive {
     transform: rotate(90deg);
     margin: 0px auto -100px auto;
-    height: 410px !important;
+    height: 380px !important;
   }
 
   #page-container > * {
@@ -99,6 +102,7 @@ h2 {
   max-width: 200px;
   border: 1px solid #f7645d;
   margin: auto;
+  opacity: 1;
 }
 
 .blog-btn {
@@ -324,7 +328,7 @@ h2 {
   height: 100%;
 }
 .header-img {
-  max-width: 1280px;
+  width: 100%;
   height: 100vh;
   background-position: center;
   background-size: auto;
