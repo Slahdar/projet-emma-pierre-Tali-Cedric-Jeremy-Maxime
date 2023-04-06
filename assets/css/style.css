@@ -34,10 +34,6 @@ h2 {
   }
 } */
 
-#page-container > * {
-  margin-top: 50px !important;
-}
-
 .row {
   margin: 0 !important;
 }
@@ -60,6 +56,10 @@ h2 {
 
   #page-container > * {
     margin-top: 20px !important;
+  }
+
+  #page-container {
+    padding: 0;
   }
 }
 
@@ -483,4 +483,14 @@ h2 {
 
 .checkbox-contactPage input[type="checkbox"]:checked + label:after {
   opacity: 1;
+}
+
+@media screen and (max-width: 480px) {
+  #contact,
+  #devis {
+    padding: 0 50px !important;
+  }
+  .img-blog-article-bigger {
+    width: 100% !important;
+  }
 }
