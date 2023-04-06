@@ -2,6 +2,11 @@ html {
   /* cursor: none; */
 }
 
+footer a {
+  color: unset;
+  text-decoration: unset;
+}
+
 body {
   margin: 0px;
   padding: 0px;
