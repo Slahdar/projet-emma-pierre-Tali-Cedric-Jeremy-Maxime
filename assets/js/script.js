@@ -52,9 +52,9 @@ document.addEventListener("DOMContentLoaded", function () {
       <a href="a-propos.html" >A propos</a>
       <a href="product_list.html" id="first-div">Nos Collections</a>
       <div id="block-3">
-        <div class="items"></div>
-        <div class="items"></div>
-        <div class="items"></div>
+        <div class="items"><a href="collection-precieuse.html"><img src="assets/img/bracelet.webp">Précieuses</a></div>
+        <div class="items"><a href="collection-impertinente.html"><img src="assets/img/bracelet.webp">Impertinentes</a></div>
+        <div class="items"><a href="collection-unique.html"><img src="assets/img/bracelet.webp">Unique</a></div>
         </div>
       <a href="blog.html">Blog</a>
       <a href="contact.html">Contact</a>

@@ -73,7 +73,7 @@ body {
 
 #block-1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 
   height: 80px;
@@ -86,19 +86,33 @@ body {
 
 #block-3 {
   display: none;
-  justify-content: space-between;
+  justify-content: center;
   z-index: 2;
   width: 100%;
-  background-color: red;
+  background-color: #ffffffff;
   position: absolute;
   top: 100%;
+  gap: 30px;
 }
 
-.items {
-  background-color: green;
-  height: 80px;
-  width: 80px;
-  margin: 20px auto;
+.items,
+.items > a > img {
+  height: 140px;
+  width: 140px;
+  margin: 30px 0;
+  transition: 0.3s;
+  text-align: center;
+  align-self: center;
+}
+
+.items > a > img {
+  margin: unset;
+}
+
+nav .items:hover,
+.items > a > img {
+  opacity: 0.7;
+  cursor: pointer;
 }
 
 #menu {
