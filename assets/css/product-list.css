@@ -20,7 +20,6 @@ img {
 
 #filter-wrapper{
     width: 300px;
-    margin-right: 10px;
 }
 .grid-wrapper > div {
 	display: flex;
@@ -145,11 +144,6 @@ img {
     .grid-wrapper{
         width: 100%;
         margin-left: 0px;
-    }
-
-    #filters{
-        position: relative;
-        width: 270px;
     }
 }
 

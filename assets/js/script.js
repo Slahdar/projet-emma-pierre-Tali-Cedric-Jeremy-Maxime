@@ -2,8 +2,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
   const headerContainer = document.getElementById("header-container");
- headerContainer.innerHTML = `
- <div id="block-1">
+headerContainer.innerHTML = `
+<div id="block-1">
 <nav class="menu-left" id="head-cred" >
 <i class="fa-solid fa-phone"></i><span> +33 7 65 78 65 43</span>
 <i class="fa-solid fa-envelope"></i><span>  test@test.fr</span>
@@ -37,35 +37,13 @@ document.addEventListener('DOMContentLoaded', function() {
     
     
     <div id="cart">
-     <h3>Mon panier (1)</h3>   
         <div id="cart-items">
-            <div class="cart-item">
-                <div class="item-image-container">
-                    <img src="assets/img/earings_profil_2.webp" alt="">
-                </div>
-                <div class="cart-item-info">
-                    <p>Boucle d'oreil</p>
-                    <p>50€</p>
-                    <div class="cart-item-btns">
-                        <p>quantité : 1</p>
-                        <p id="cart-btn-modif">Modifier</p>
-                        <p>supprimer</p>
-                    </div>
-                    
-                </div>
-                
-            </div>
-            
+            <div class="cart-item"></div>
+            <div class="cart-item"></div>
+            <div class="cart-item"></div>
         </div>
-        <div class="cart-checkout">
-        <div class="cart-total">
-            <h2>Total</h2>
-            <p>50€</p>
-        </div>
-            
-        
-            <button  id="check-out-btn">Acceder au panier</button>
-        
+        <div id="check-out">
+            <button id="check-out-btn">CHECK OUT</button>
         </div>
     </div>
   </div>
@@ -74,47 +52,18 @@ document.addEventListener('DOMContentLoaded', function() {
 <div id="block-2">
   <nav id="menu">
       <a href="a-propos.html" >A propos</a>
-      <a href="javascript:void(0)" id="first-div">Nos Collections</a>
+      <a href="product_list.html" id="first-div">Nos Collections</a>
       <div id="block-3">
-        <div class="items">
-            <div class="item-image precieuses"></div>
-            <a class="item-link" href="">Precieuses</a>
-            <div class="item-sub-links">
-                <a href="">Bracelets</a>
-                <a href="">Colliers</a>
-                <a href="">Boucles d'oreilles</a>
-                
-            </div>
-        </div>
-        <div class="items">
-            <div class="item-image impertinentes"></div>
-            
-            <a class="item-link" href="">Impertinentes</a>
-            
-            <div class="item-sub-links">
-                <a href="">Bracelets</a>
-                <a href="">Colliers</a>
-                <a href="">Boucles d'oreilles</a>
-                
-            </div>
-        </div>
-        <div class="items">
-            <div class="item-image unique"></div>
-            <a class="item-link" href="">Unique</a>
-            <div class="item-sub-links">
-                <a href="">Bracelets</a>
-                <a href="">Colliers</a>
-                <a href="">Boucles d'oreilles</a>
-                
-            </div>
-        </div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
         </div>
       <a href="blog.html">Blog</a>
       <a href="contact.html">Contact</a>
   </nav>
 </div>
 
-   `;
+  `;
 
 
 
@@ -176,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
  toggleDiv.addEventListener("click", function() {
    // Toggle the display of the other div
    if (otherDiv.style.display === "none") {
-     otherDiv.style.display = "flex";
+     otherDiv.style.display = "block";
    } else {
      otherDiv.style.display = "none";
    }
@@ -239,13 +188,11 @@ document.addEventListener('DOMContentLoaded', function() {
 window.addEventListener('scroll', function() {
  var navbar = document.getElementById('header-container');
  if (window.pageYOffset > 20) {
-  
    navbar.style.backgroundColor = 'white';
-  
   
  }
  if (window.pageYOffset === 0) {
-   navbar.style.backgroundColor = 'transparent';
+   navbar.style.backgroundColor = '#ffffff87';
   
  }
 });

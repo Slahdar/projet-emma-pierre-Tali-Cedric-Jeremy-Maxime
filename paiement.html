@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/panier.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/navbar-style.css">
+    <link rel="stylesheet" href="assets/css/caroussel-style.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/tabs2-style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="header-container"></header>
+
+    <div id="page-container">
+
+
+        <section class="panier-section">
+
+            <div class="panier-wrap">
+                <div class="cart-flex">
+                    <h1>Mode de paiement</h1>
+
+                </div>
+                <hr class="corail">
+                <div class="rassurance mt-5">
+                    <img src="assets/icon/paiement.svg">
+                    <p class="h3 bleu m-0">Paiement sécurisé</p>
+                </div>
+                <div id="devis" class="p-2 mt-5">
+                    <form class="contact-form">
+                        <div class="row">
+
+
+                            <div class="col-12">
+                                <div class="div-input-contact logoCB">
+                                    <label for="num">Numéro de carte*</label>
+                                    <input type="text" id="num" class="" name="num">
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <div class="div-input-contact">
+                                    <label for="name">Date d'expiration*</label>
+                                    <input type="text" id="firstname" name="user_firstname">
+                                </div>
+
+                            </div>
+                            <div class="col-12 col-sm-6">
+
+                                <div class="div-input-contact">
+                                    <label for="name">Cryptogramme*</label>
+                                    <input type="text" id="phone" name="user_phone">
+                                </div>
+                            </div>
+                            <div class="col-12">
+
+                                <div class="div-input-contact">
+                                    <label class="h4 mob-13px"><input type="checkbox" name="emballage"> J'ai lu les
+                                        conditions
+                                        générales de vente et j'y adhère sans réserve.</label>
+
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <a href="/paiement.html" class="cta mt-5" style="float: right" role="button">Payer ma
+                                    commande</a>
+                            </div>
+
+
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-12 text-center mt-5 gap-3 d-flex align-items-center flex-column justify-content-center">
+                    <div class="d-flex align-items-center gap-4">
+
+                        <img src="assets/icon/lock.svg">
+                        <p class="m-0">Paiement 100% sécurisé</p>
+                    </div>
+                    <p>
+                        Les informations que vous nous transmettez sur cette page sont cryptées, vous pouvez saisir vos
+                        données bancaires en toute sécurité</p>
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+            <div class="total-wrap">
+                <div class="sous-total">
+                    <h2 class=" bleu  m-0"> Récapitulatif</h2>
+                </div>
+                <hr class="corail">
+                <div class="sous-total">
+                    <p class="h4 bleu m-0"> Sous total du panier</p>
+                    <p class="h4 bleu m-0"> 50.00 €</p>
+                </div>
+                <div class="sous-total">
+                    <p class="h4 bleu m-0"> Livraison</p>
+                    <p class="h4 bleu m-0"> 0.00 €</p>
+                </div>
+                <hr class="corail">
+
+                <div class="sous-total">
+                    <p class="h4 bleu m-0"> Total de la commande</p>
+                    <p class="h4 bleu m-0"> 50.00 €</p>
+                </div>
+                <div class="sous-total">
+                    <p class="h4 bleu m-0"> 1 produit dans votre panier</p>
+                </div>
+
+                <div class="inner-cart-flex recap">
+                    <img src="assets/img/883f5585-5ac8-4918-86a3-front.jpg.webp">
+                    <div class="d-flex flex-column justify-content-between w-100">
+                        <div class="inner-cart-flex-row mob-column">
+
+                            <p class="h4 bleu m-0">Boucle <br>d'oreille</p>
+
+
+                            <p class="h4 m-0 bleu">50.00€</p>
+                        </div>
+                        <div class="inner-cart-flex-row">
+                            <p class="h4 m-0 bleu" role="button">Quantité : 1</p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+
+
+
+    </div>
+    <footer id="footer-container">
+        <div id="foot-info">
+            <div id="footer-block-1">
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In suscipit, unde sunt necessitatibus totam
+                    sit.</p>
+            </div>
+
+            <div id="footer-block-2" class="logo-container">
+                <img src="https://cdn.discordapp.com/attachments/1092361701158043738/1092399129960914964/EP-logo-DEF-carre.png"
+                    class="logo">
+            </div>
+            <div id="footer-block-3">
+
+                <i class="fa-solid fa-phone"></i><span> +33 7 65 78 65 43</span>
+                <br>
+                <i class="fa-solid fa-envelope"></i><span> test@test.fr</span>
+            </div>
+        </div>
+        <div id="legal">
+            <p>Tous droit réservé - © Emma Pierre - 2023 </p>
+            <p>Mentons légales</p>
+            <p>Conditions générales de ventes</p>
+        </div>
+    </footer>
+    <script src="assets/js/caroussel-script.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
