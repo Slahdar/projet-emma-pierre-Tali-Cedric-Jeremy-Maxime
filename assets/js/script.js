@@ -62,11 +62,11 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="cart-checkout">
         <div class="cart-total">
             <h2>Total</h2>
-            <p>50€</p>
+            <p style="margin-top:30px">50€</p>
         </div>
             
         
-            <button  id="check-out-btn">Acceder au panier</button>
+            <button style="width:100%" onclick="panier()" class="cta" id="">Acceder au panier</button>
         
         </div>
     </div>
@@ -80,33 +80,33 @@ document.addEventListener("DOMContentLoaded", function () {
       <div id="block-3">
         <div class="items">
         <a class="imgheader" href="collection-precieuse.html"><div class="item-image precieuses"></div></a>
-            <a class="item-link" href="collection-precieuse.html">Précieuses</a>
+            <a class="item-link" href="product_list.html">Précieuses</a>
             <div class="item-sub-links">
-                <a href="">Bracelets</a>
-                <a href="">Colliers</a>
-                <a href="">Boucles d'oreilles</a>
+                <a href="product_list.html">Bracelets</a>
+                <a href="product_list.html">Colliers</a>
+                <a href="product_list.html">Boucles d'oreilles</a>
                 
             </div>
         </div>
         <div class="items">
         <a class="imgheader" href="collection-impertinente.html"><div class="item-image impertinentes"></div></a>
             
-            <a class="item-link" href="collection-impertinente.html">Impertinentes</a>
+            <a class="item-link" href="product_list.html">Impertinentes</a>
             
             <div class="item-sub-links">
-                <a href="">Bracelets</a>
-                <a href="">Colliers</a>
-                <a href="">Boucles d'oreilles</a>
+                <a href="product_list.html">Bracelets</a>
+                <a href="product_list.html">Colliers</a>
+                <a href="product_list.html">Boucles d'oreilles</a>
                 
             </div>
         </div>
         <div class="items">
         <a class="imgheader" href="collection-unique.html"><div class="item-image unique"></div></a>
-            <a class="item-link" href="collection-unique.html">Unique</a>
+            <a class="item-link" href="product_list.html">Unique</a>
             <div class="item-sub-links">
-                <a href="">Bracelets</a>
-                <a href="">Colliers</a>
-                <a href="">Boucles d'oreilles</a>
+                <a href="product_list.html">Bracelets</a>
+                <a href="product_list.html">Colliers</a>
+                <a href="product_list.html">Boucles d'oreilles</a>
                 
             </div>
         </div>
@@ -278,3 +278,26 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+function panier(){
+  window.location.href = 'panier.html';
+}
+
+function product_list(){
+  window.location.href = 'product_list.html';
+}
+function product_page(){
+  window.location.href = 'product_page.html';
+}
+
+function precieuse(){
+  window.location.href = 'collection-precieuse.html';
+}
+
+function impertinente(){
+  window.location.href = 'collection-impertinente.html';
+}
+
+function unique(){
+  window.location.href = 'collection-unique.html';
+}
