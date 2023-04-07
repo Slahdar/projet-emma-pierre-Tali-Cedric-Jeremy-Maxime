@@ -243,6 +243,10 @@ h2 {
   height: 600px;
 }
 
+.collec-container div{
+  cursor: pointer;
+}
+
 .collec-btn {
   max-width: 250px;
   height: 50px;

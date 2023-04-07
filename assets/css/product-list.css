@@ -89,7 +89,7 @@ img {
 }
 
 #filters {
-  position: fixed;
+  position: relative;
   width: 300px;
 }
 
