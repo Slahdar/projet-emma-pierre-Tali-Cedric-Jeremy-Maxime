@@ -491,6 +491,10 @@ h2 {
   opacity: 1;
 }
 
+.click > div > :is(div, div p){
+  cursor: pointer;
+}
+
 @media screen and (max-width: 480px) {
   #contact,
   #devis {
