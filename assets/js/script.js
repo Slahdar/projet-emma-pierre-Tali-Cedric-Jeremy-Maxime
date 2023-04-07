@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <img src="assets/img/earings_profil_2.webp" alt="">
                 </div>
                 <div class="cart-item-info">
-                    <p>Boucle d'oreil</p>
+                    <p>Boucle d'oreille</p>
                     <p>50€</p>
                     <div class="cart-item-btns">
                         <p>Quantité : 1</p>
