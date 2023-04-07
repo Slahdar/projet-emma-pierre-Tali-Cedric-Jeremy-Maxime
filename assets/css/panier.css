@@ -71,11 +71,15 @@
     width: 160px;
     height: 130px;
   }
-}
-.carousel{
+  .carousel{
     flex-direction: column;
     align-items: center;
+  }
+  .rassurance{
+    justify-content: center;
+  }
 }
+
 
 .quantite-prix{
     display: flex;
@@ -107,7 +111,6 @@ input[type="checkbox"] {
     display: flex;
     align-items: center;
     gap: 30px;
-    justify-content: center;
 
 }
 

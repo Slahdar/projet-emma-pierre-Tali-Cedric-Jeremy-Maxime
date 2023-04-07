@@ -198,7 +198,7 @@ i {
   color: #18515c !important;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   margin-right: 20px; /* Add margin to space the icons from the edge of the container */
 }
 
@@ -220,7 +220,7 @@ i {
   width: 500px;
   background-color: rgba(255, 255, 255, 0.799);
   z-index: 100;
-  border: solid 1px #f7645d;
+  border: solid 1px var(--corail1);
   padding: 5px;
   flex-direction: column;
   justify-content: space-between;
@@ -267,13 +267,14 @@ i {
 
 .cart-checkout {
   margin: auto 15px;
-  border-top: 1px solid #f7645d;
+  border-top: 1px solid var(--corail1);
 }
 
 .cart-total {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  align-items: center;
 }
 
 .cart-total > p {

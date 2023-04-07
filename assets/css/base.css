@@ -192,8 +192,12 @@ button.cta:active {
   border: 1px solid var(--corail1) !important;
 }
 
-a,
-a:hover {
-  text-decoration: none;
+a {
+  text-decoration: none !important;
   color: var(--Gris1);
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: var(--corail1);
 }

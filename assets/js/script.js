@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </div>  
 <div class="logo-container">
 <a href="index.html">
-  <img src="https://cdn.discordapp.com/attachments/1092361701158043738/1092399129960914964/EP-logo-DEF-carre.png" class="logo">
+  <img src="assets/img/logoNoir.png" class="logo">
 </a>
   </div>
 <nav class="menu-right">
@@ -23,17 +23,18 @@ document.addEventListener("DOMContentLoaded", function () {
   <div class="icons-container">
     <div class="icon-container">
         
-        <i class="fa-solid fa-magnifying-glass"></i>
+    <img src="assets/icon/iconoir_search.svg">
     </div>
 
     <div class="icon-container">
         
-        <i class="fa-regular fa-user"></i>
+    <img src="assets/icon/user.svg">
+
     </div>
 
     <div class="icon-container">
         
-        <i id="cart-btn" class="fa-solid fa-cart-shopping"></i>
+    <img id="cart-btn" src="assets/icon/cart.svg">
     </div>
     
     
@@ -49,9 +50,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     <p>Boucle d'oreil</p>
                     <p>50€</p>
                     <div class="cart-item-btns">
-                        <p>quantité : 1</p>
+                        <p>Quantité : 1</p>
                         <p id="cart-btn-modif">Modifier</p>
-                        <p>supprimer</p>
+                        <p>Supprimer</p>
                     </div>
                     
                 </div>
@@ -148,7 +149,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="col-12 col-sm-4 order-1 order-sm-2">
           <div class="footer-section" style="display: flex;"> 
               <a href="index.html" style="margin: auto;">
-                  <img src="https://cdn.discordapp.com/attachments/1092361701158043738/1092399129960914964/EP-logo-DEF-carre.png" class="logo">
+                  <img src="assets/img/logoBlanc.png" class="logo">
               </a>
           </div>
       </div>
@@ -156,9 +157,9 @@ document.addEventListener("DOMContentLoaded", function () {
           <div class="footer-section row">
 
               <h2 class="white-title" style="text-transform: uppercase; margin-top: auto;">contact</h2>
-              <div class="col-12"> <i class="fa-solid fa-phone"></i><span>0123456789</span></div>
-              <div class="col-12"> <i class="fa-solid fa-envelope"></i><span>contact@emmapierre.com</span></div>
-              <div class="col-12"> <i class="fa-brands fa-instagram"></i><span>@emmapierrejewels</span></div>
+              <div class="col-12"><a href=""><img src="assets/icon/ph_phone-light.svg" class="pe-2" >01 23 45 67 89</a></div>
+              <div class="col-12"> <a href=""><img src="assets/icon/circum_mail.svg"  class="pe-2">contact@emmapierre.com</a></div>
+              <div class="col-12"> <a href=""><img src="assets/icon/instagramfooter.svg" class="pe-2">@emmapierrejewels</a></div>
           
           </div>
       </div>
@@ -166,7 +167,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </div>
 <div id="legal">
 <p>Tous droit réservé  - © Emma Pierre - 2023 </p>
-<p>Mentons légales</p>
+<p>Mentions légales</p>
 <p>Conditions générales de ventes</p>
 </div>`;
 
